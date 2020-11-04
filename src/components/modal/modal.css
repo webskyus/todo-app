@@ -1,0 +1,38 @@
+/*modal box*/
+.uk-modal .uk-button {
+    margin-left: 10px;
+}
+
+.uk-modal .uk-modal-dialog {
+    background: #fff;
+}
+
+.uk-modal .uk-button-default {
+    color: var(--main-text-color)!important;
+}
+
+.uk-modal .uk-article-title {
+    font-weight: bold;
+    color: #302f2f;
+}
+
+.uk-modal {
+    backdrop-filter: blur(10px);
+}
+
+.modal-wrapper {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 640px) {
+    .uk-modal {
+        padding: 0px!important;
+    }
+    .uk-modal .uk-button {
+        width: 100%;
+        margin-left: unset;
+        margin-bottom: 10px;
+    }
+}

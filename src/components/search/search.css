@@ -1,0 +1,15 @@
+.uk-navbar-item,
+.uk-search-navbar,
+.uk-search-navbar .uk-search-input {
+    width: 100% !important;
+}
+.header .header-title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-text-color)
+}
+
+.uk-search-navbar .uk-search-icon:not(.uk-search-icon-flip)~.uk-search-input {
+    padding-left: 60px!important;
+}

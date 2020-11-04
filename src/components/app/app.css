@@ -1,0 +1,48 @@
+/* variable */
+main {
+  --main-text-color: #454141;
+  --el-bg: #fff;
+  --el-shadow: 20px 10px 60px #d9d9d9, -20px -10px 60px #ffffff;
+  --profile-btn: #fff;
+  --theme-btn: #fff;
+
+  background: var(--el-bg);
+}
+
+main.dark-theme {
+  --main-text-color: #fff;
+  --el-bg: #363333;
+  --profile-btn: #f0506e;
+  --theme-btn: #a8a7a7;
+  --el-shadow: 20px 20px 60px #302f2f, -20px -20px 60px #423f3f;
+
+  background: var(--el-bg);
+}
+
+.main {
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  transition: all 0.25s;
+}
+
+#root {
+  width: 100%;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.pb15 {
+  padding-bottom: 15px!important;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+
+
+
+
